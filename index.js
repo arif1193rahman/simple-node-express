@@ -42,7 +42,7 @@ app.post('/users',(req,res)=>{
     res.json(newUser)
 })
 
-// dynamic API
+// dynamic API.....
 app.get('/users/:id', (req, res)=>{
     const id = req.params.id;
     const user = users[id];
